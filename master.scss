@@ -1,0 +1,110 @@
+$white: #fff;
+$gray-blue: #ecedef;
+@font-face {
+    font-family: 'adineue PRO KZ Bold';
+    src: url('https://rawgit.com/MEJSIK/DataFilesBase/master/UltraboostX/fonts/adineuePRO-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'adineue PRO KZ Black';
+    src: url('https://rawgit.com/MEJSIK/DataFilesBase/master/UltraboostX/fonts/adineuePRO-Black.ttf');
+}
+
+@font-face {
+    font-family: 'DIN-Regular';
+    src: url('https://rawgit.com/MEJSIK/DataFilesBase/master/UltraboostX/fonts/DIN%20Regular.TTF');
+}
+
+.UltraboostX {
+    display: flex;
+    justify-content: center;
+    background: $white;
+    font-family: 'DIN-Regular';
+    position: relative;
+    .gray-blue{
+        background: $gray-blue
+    }
+    .flex-container {
+        max-width: 1180px;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-content: stretch
+    }
+    .flex-row {
+        flex: 0 1 auto;
+        flex-direction: row;
+        position: relative;
+        margin: 25px 0;
+      
+    }
+    .flex-item {
+        order: 0;
+        flex: 1;
+        align-self: auto;
+        position: relative;
+        flex-direction: column;
+        .desciption {
+            font-size: 1.3em;
+            text-transform: uppercase;
+            &-header {
+                font-family: 'adineue PRO KZ Bold';
+                text-align: center
+            }
+        }
+        
+        .text-content,.text-content-white
+        {
+            h2,h3 {
+                font-family: 'adineue PRO KZ Black';
+            }
+            text-align: center;
+            font-size: 1.3em;
+            background: $white;
+            position: relative;
+            z-index:1;
+            .citation{
+                 font-family: 'adineue PRO KZ Bold';
+                 font-size: 1.5em
+                
+             
+            }
+            &-white{
+               position: relative;
+               top: -130px;
+               left: 50px;
+                     color: $white;
+                      background: transparent
+            }
+          
+        }
+    }
+    .shoes {
+        &:first-child {
+            margin: 0
+        }
+        width: 400px;
+        margin-left:10px
+    }
+    .flex-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    video.main-vid {
+        position: absolute;
+        width: 65%;
+        top: -480px;
+        left: 200px
+    }
+    .img-r {
+        width: 100%;
+        display: block
+    }
+    .shoe{
+        width:60%
+    }
+}

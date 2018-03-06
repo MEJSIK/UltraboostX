@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'adineue PRO KZ Bold';
+  src: url("https://rawgit.com/MEJSIK/DataFilesBase/master/UltraboostX/fonts/adineuePRO-Bold.ttf"); }
+@font-face {
+  font-family: 'adineue PRO KZ Black';
+  src: url("https://rawgit.com/MEJSIK/DataFilesBase/master/UltraboostX/fonts/adineuePRO-Black.ttf"); }
+@font-face {
+  font-family: 'DIN-Regular';
+  src: url("https://rawgit.com/MEJSIK/DataFilesBase/master/UltraboostX/fonts/DIN%20Regular.TTF"); }
+.UltraboostX {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fff;
+  font-family: 'DIN-Regular';
+  position: relative; }
+  .UltraboostX .gray-blue {
+    background: #ecedef; }
+  .UltraboostX .flex-container {
+    max-width: 1180px;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch; }
+  .UltraboostX .flex-row {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: relative;
+    margin: 25px 0; }
+  .UltraboostX .flex-item {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -ms-flex-item-align: auto;
+        align-self: auto;
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .UltraboostX .flex-item .desciption {
+      font-size: 1.3em;
+      text-transform: uppercase; }
+      .UltraboostX .flex-item .desciption-header {
+        font-family: 'adineue PRO KZ Bold';
+        text-align: center; }
+    .UltraboostX .flex-item .text-content, .UltraboostX .flex-item .text-content-white {
+      text-align: center;
+      font-size: 1.3em;
+      background: #fff;
+      position: relative;
+      z-index: 1; }
+      .UltraboostX .flex-item .text-content h2, .UltraboostX .flex-item .text-content h3, .UltraboostX .flex-item .text-content-white h2, .UltraboostX .flex-item .text-content-white h3 {
+        font-family: 'adineue PRO KZ Black'; }
+      .UltraboostX .flex-item .text-content .citation, .UltraboostX .flex-item .text-content-white .citation {
+        font-family: 'adineue PRO KZ Bold';
+        font-size: 1.5em; }
+      .UltraboostX .flex-item .text-content-white, .UltraboostX .flex-item .text-content-white-white {
+        position: relative;
+        top: -130px;
+        left: 50px;
+        color: #fff;
+        background: transparent; }
+  .UltraboostX .shoes {
+    width: 400px;
+    margin-left: 10px; }
+    .UltraboostX .shoes:first-child {
+      margin: 0; }
+  .UltraboostX .flex-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .UltraboostX video.main-vid {
+    position: absolute;
+    width: 65%;
+    top: -480px;
+    left: 200px; }
+  .UltraboostX .img-r {
+    width: 100%;
+    display: block; }
+  .UltraboostX .shoe {
+    width: 60%; }
+
+/*# sourceMappingURL=master.css.map */
